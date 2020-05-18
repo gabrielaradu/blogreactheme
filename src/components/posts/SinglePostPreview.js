@@ -8,7 +8,7 @@ class SinglePostPreview extends Component {
                 <p className="font-weight-lighter">
                     {this.props.preview}
                 </p>
-                <p className="date-title">{this.props.date}</p>
+                <p className="date-title" aria-labelledby="the date for the above article">{this.props.date}</p>
             </div>
         );
     }

@@ -4,7 +4,7 @@ import NotFound from "./NotFound";
 import ProjectsPage from "./projects/ProjectsPage";
 import AboutMePage from "./about/AboutMePage";
 import MainPage from "./MainPage";
-import SinglePostContent from "./posts/SinglePostContent";
+import DetailsPage from "./posts/DetailsPage";
 
 const Router = () => (
 
@@ -13,6 +13,7 @@ const Router = () => (
             <Route exact path="/" component={MainPage}/>
             <Route exact path="/projects" component={ProjectsPage}/>
             <Route exact path="/about" component={AboutMePage}/>
+            <Route exact path="/page" component={DetailsPage}/>
             <Route component={NotFound}/>
         </Switch>
     </BrowserRouter>

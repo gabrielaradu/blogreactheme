@@ -54,11 +54,7 @@ body {
   font-weight: lighter;
 }
 
-.nav-item:hover {
-  text-decoration: underline;
-}
-
-.nav-item:hover a {
+.nav-item a:hover {
   color: black;
   text-decoration: underline;
 }
@@ -85,11 +81,13 @@ body {
 
 a {
   color: black;
+  background: none;
 }
 
 a:hover {
   text-decoration: underline;
   color: black;
+  background: none;
 }
 
 .only-bottom-border-input {

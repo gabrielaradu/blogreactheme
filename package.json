@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Gabriela Radu",
-  "homepage": "https://github.com/gabrielaradu/portfolio-blog-react-theme.git",
+  "homepage": "",
   "keywords": ["reactjs","portfolio theme","blog theme","scss","bootstrap4","landing page","free reactjs theme"],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

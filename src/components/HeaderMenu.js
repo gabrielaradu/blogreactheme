@@ -8,7 +8,7 @@ class HeaderMenu extends React.Component {
             <header className="header-container row">
                 <div className="col-md-3 col-sm-12 d-flex">
                     <div className="text-center container-with-border-top container-with-padding-top">
-                        <p aria-label="this is the title of the page">another.technical.blog</p>
+                        <p aria-labelledby="title of the portfolio">another.technical.blog</p>
                     </div>
                 </div>
                 <div className="col-md-9 col-sm-12 row justify-content-md-end justify-content-sm-center nav-links">
@@ -27,10 +27,10 @@ class HeaderMenu extends React.Component {
                     </a>
                     <div className="flex-grow-1"></div>
                     <div className="flex-grow-0 nav-item">
-                        <label htmlFor="searchInPosts" className="pr-3">Search in posts:</label>
+                        <label htmlFor="searchInPosts" className="pr-3" aria-labelledby="Label for search action">Search in posts:</label>
                         <input type="search" id="searchInPosts"
                                className="only-bottom-border-input bg-transparent"
-                               aria-label="search in the blog posts"/>
+                                aria-describedby="type what you are looking for to search in the blog posts and press enter"/>
                     </div>
                 </div>
             </header>
