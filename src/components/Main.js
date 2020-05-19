@@ -14,7 +14,7 @@ class Main extends Component {
                              alt="project descriptive logo"/>
                     </div>
                     <div className="col-md-7 col-lg-7 col-sm-12 pt-4">
-                        <h1 className="display-3" aria-labelledby="title of a project"><a href="/page">About a very cool project of
+                        <h1 className="display-3"><a href="/page">About a very cool project of
                             yours.</a></h1>
                         <p className="font-weight-lighter">Here you will describe a bit about your very cool
                             project that you created or helped created and you want to share it with the world.

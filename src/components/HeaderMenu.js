@@ -8,7 +8,7 @@ class HeaderMenu extends React.Component {
             <header className="header-container row">
                 <div className="col-md-3 col-sm-12 d-flex">
                     <div className="text-center container-with-border-top container-with-padding-top">
-                        <p aria-labelledby="title of the portfolio">another.technical.blog</p>
+                        <p>another.technical.blog</p>
                     </div>
                 </div>
                 <div className="col-md-9 col-sm-12 row justify-content-md-end justify-content-sm-center nav-links">
