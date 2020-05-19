@@ -26,12 +26,6 @@ class HeaderMenu extends React.Component {
                         </div>
                     </a>
                     <div className="flex-grow-1"></div>
-                    <div className="flex-grow-0 nav-item">
-                        <label htmlFor="searchInPosts" className="pr-3" aria-labelledby="Label for search action">Search in posts:</label>
-                        <input type="search" id="searchInPosts"
-                               className="only-bottom-border-input bg-transparent"
-                                aria-describedby="type what you are looking for to search in the blog posts and press enter"/>
-                    </div>
                 </div>
             </header>
         );
