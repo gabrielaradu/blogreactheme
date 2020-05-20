@@ -85,6 +85,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 - [Gabriela](http://www.gabrielaradu.me/)
 - [Dribbble Inspiration](https://dribbble.com/shots/9042942-Brand-experiments-part-17)
+- Readme inspiration from [Cruip Team](https://github.com/cruip/open-react-template/blob/master/README.md) 
+Thank you.
 
 ## Terms and License
 
