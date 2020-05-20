@@ -1,6 +1,6 @@
 # Free React portfolio-blog mismash landing page template
 
-Created and maintained with ❤️ by [Gabriela](http://www.gabrielaradu.me/).
+Created and maintained with ❤️ by [Gabriela](https://www.linkedin.com/in/gabirr/).
 
 ## Live demo
 
