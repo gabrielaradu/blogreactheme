@@ -7,13 +7,14 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <div className="row align-content-center mb-5">
-                    <div className="col-md-3 col-lg-3 col-sm-12">
-                        <img className="shadow w-100 h-auto"
-                             src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
-                             alt="project descriptive logo"/>
+                <div className="row pb-5 pt-5">
+                    <div className="col-md-4 col-sm-12">
+                        <img
+                            src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
+                            className="w-100 h-auto align-items-center"
+                            alt="a table with a laptop with a white mug and a notebook next to it"/>
                     </div>
-                    <div className="col-md-7 col-lg-7 col-sm-12 pt-4">
+                    <div className="col-md-6 col-sm-12">
                         <h1 className="display-3"><a href="/">About a very cool project of
                             yours.</a></h1>
                         <p className="font-weight-lighter">Here you will describe a bit about your very cool

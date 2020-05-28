@@ -1,18 +1,9 @@
-:root {
-  background-color: #D7DFE2;
-}
-
-body {
-  color: black;
-  background-color: #D7DFE2;
-}
-
 .main-container {
   padding: 5rem 12rem 5rem 12rem;
 }
 
 .main-container-highlight {
-  background: #F0F0F0;
+  background: $background-container;
   padding: 4rem 5rem 5rem 5rem;
 }
 
@@ -22,7 +13,7 @@ body {
 }
 
 .container-with-border-top {
-  border-top: 2px solid #5d5f5e;
+  border-top: 2px solid $background-border;
 }
 
 .container-with-padding-top {
@@ -31,8 +22,6 @@ body {
 
 .image-header-container {
   display: flex;
-  background: #A30000;
-  margin-bottom: 1.5rem;
   width: 50vh;
 }
 
@@ -40,7 +29,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: row;
-  border-top: 1px solid #898b8a;
+  border-top: 1px solid $background-border-grey;
 }
 
 .nav-item {
@@ -67,7 +56,6 @@ body {
 }
 
 .project-logo {
-  background: black;
 }
 
 .latest-container {
@@ -75,7 +63,7 @@ body {
 }
 
 .horizontal-container {
-  border-top: 1px solid #5d5f5e;
+  border-top: 1px solid $background-border-grey;
   padding: 1rem;
 }
 
@@ -102,7 +90,7 @@ a:hover {
 }
 
 .date-title {
-  color: #A30000;
+  color: $date-color;
 }
 
 @media screen and (max-width: 480px) {
