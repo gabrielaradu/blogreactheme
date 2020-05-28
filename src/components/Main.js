@@ -10,11 +10,11 @@ class Main extends Component {
                 <div className="row align-content-center mb-5">
                     <div className="col-md-3 col-lg-3 col-sm-12">
                         <img className="shadow w-100 h-auto"
-                             src="https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=710&q=80"
+                             src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80"
                              alt="project descriptive logo"/>
                     </div>
                     <div className="col-md-7 col-lg-7 col-sm-12 pt-4">
-                        <h1 className="display-3"><a href="/page">About a very cool project of
+                        <h1 className="display-3"><a href="/">About a very cool project of
                             yours.</a></h1>
                         <p className="font-weight-lighter">Here you will describe a bit about your very cool
                             project that you created or helped created and you want to share it with the world.
@@ -54,21 +54,21 @@ class Main extends Component {
                 <div className="latest-container mb-4">
                     <div className="row horizontal-container">
                         <FeaturedPostPreview title="What is Lorem Ipsum?"
-                                             url="/page"
+                                             url="/"
                                              preview={" Lorem Ipsum is simply dummy text of the printing\n" +
                                              "                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy\n" +
                                              "                                    text ever since the 1500s, when an unknown printer took a galley of type and\n" +
                                              "                                    scrambled it to make a type specimen book. Oh, now that you are here: <b>wear a\n" +
                                              "                                    mask outside for others and others wear a mask for you</b>."}/>
                         <FeaturedPostPreview title="What is Lorem Ipsum?"
-                                             url="/page"
+                                             url="/"
                                              preview={" Lorem Ipsum is simply dummy text of the printing\n" +
                                              "                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy\n" +
                                              "                                    text ever since the 1500s, when an unknown printer took a galley of type and\n" +
                                              "                                    scrambled it to make a type specimen book. Oh, now that you are here: <b>wear a\n" +
                                              "                                    mask outside for others and others wear a mask for you</b>."}/>
                         <FeaturedPostPreview title="What is Lorem Ipsum?"
-                                             url="/page"
+                                             url="/"
                                              preview={" Lorem Ipsum is simply dummy text of the printing\n" +
                                              "                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy\n" +
                                              "                                    text ever since the 1500s, when an unknown printer took a galley of type and\n" +
@@ -82,7 +82,7 @@ class Main extends Component {
                 </div>
                 <div className="content">
                     <SinglePostPreview title="This is one of your latest blog post?"
-                                       url="/page"
+                                       url="/"
                                        date="24 April 2020"
                                        preview={" Lorem Ipsum is simply dummy text of the printing\n" +
                                        "                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy\n" +
@@ -91,7 +91,7 @@ class Main extends Component {
                                        "                                    mask outside for others and others wear a mask for you</b>."}/>
 
                     <SinglePostPreview title="This is a different post where you showcase something fun"
-                                       url="/page"
+                                       url="/"
                                        date="04 May 2020"
                                        preview={" Lorem Ipsum is simply dummy text of the printing\n" +
                                        "                                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy\n" +
