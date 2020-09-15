@@ -1,5 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-and with me (Gabi) writing Sass and Html to transform a design into code.
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live demo
 
@@ -86,7 +85,7 @@ Thank you.
 
 - Released under the [MIT](https://mit-license.org/).
 - Created and maintained with ❤ by [Gabriela](http://www.gabrielaradu.me/).
-- Use it for personal and commercial projects, but please don't republish, redistribute, or resell the template.
+- Use it for personal and commercial projects, but don't republish, redistribute, or resell the template.
 - Attribution is not required.
 
 ## About Us
